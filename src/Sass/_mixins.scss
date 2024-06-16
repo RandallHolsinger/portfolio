@@ -1,0 +1,10 @@
+@import './variables';
+
+// Box Shadow
+@mixin box-shadow {
+  box-shadow: 2px 2px 2px #000;
+}
+
+@mixin border-radius {
+  border-radius: 10px;
+}

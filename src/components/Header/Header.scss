@@ -1,0 +1,28 @@
+@import '../../Sass/variables', '../../Sass/mixins';
+
+header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient($primary-color, $accent-color);
+  padding: 30px;
+  margin: 10px 10px 20px 10px;
+  @include border-radius;
+  img {
+    width: 150px;
+    height: 150px;
+    @include border-radius;
+  }
+  .header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      color: $text-color;
+    }
+    h2{
+      color: $background-color;
+    }
+  }
+}
